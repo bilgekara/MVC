@@ -1,0 +1,1 @@
+- menü isimleri sql den çekiliyor

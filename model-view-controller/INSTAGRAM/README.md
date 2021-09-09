@@ -1,0 +1,1 @@
+- Model View Controller yapısıyla instagramın giriş sayfası yapılmıştır.

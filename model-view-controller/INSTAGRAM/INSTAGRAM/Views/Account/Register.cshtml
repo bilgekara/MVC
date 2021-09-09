@@ -1,0 +1,76 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Instagram</title>
+    <link rel="icon" href="/Content/images/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/Content/style.css">
+    <script src="https://kit.fontawesome.com/309a728b05.js"></script>
+</head>
+<body>
+    <div class="ana">
+        <div class="photo">
+            <div class="container">
+                <img class='ekran' src="/Content/images/resim1.jpg" alt="" />
+                <img class='ekran' src="/Content/images/resim2.jpg" alt="" />
+                <img class='ekran' src="/Content/images/resim3.jpg" alt="" />
+                <img class='ekran' src="/Content/images/resim4.jpg" alt="" />
+            </div>
+        </div>
+        <div class="aaa">
+            <div class="giris">
+                <div class="logo">
+                    <img src="/Content/images/logo.png" alt="logo">
+                </div>
+                <div class="baslik">
+                    <p>Arkadaşlarının fotoğraf ve<br>videolarını görmek için kaydol.</p>
+                </div>
+                <div class="linkler">
+                    <button><i class="fab fa-facebook-square"></i> 	&nbsp;Facebook ile Giriş Yap</button>
+                </div>
+                <div class="yada">
+                    <p>YA DA</p>
+                </div>
+                <form action="/Account/Register" method="post">
+                    <div class="kutular">
+                        <input type="text" name="Phone" placeholder="Cep Telefonu Numarası">
+                    </div>
+                    <div class="kutular">
+                        <input type="text" name="Email" placeholder="E-posta adresiniz">
+                    </div>
+                    <div class="kutular">
+                        <input type="text" name="FullName" placeholder="Adı Soyadı">
+                    </div>
+                    <div class="kutular">
+                        <input type="text" name="UserName" placeholder="Kullanıcı adı">
+                    </div>
+                    <div class="kutular">
+                        <input type="text" name="Password" placeholder="Şifre">
+                    </div>
+                    <div class="linkler">
+                        <input type="submit" value="Kaydol" />
+                    </div>
+                </form>
+                <div class="kosul">
+                    <p>Kaydolarak, <a><b>Koşullar</b></a>'ı, <b>Veri İlkesi</b>'ni ve <b>Çerezler İlkesi</b>'ni kabul etmiş olursun.</p>
+                </div>
+            </div>
+            <div class="giris">
+                <p class="kp">Hesabın var mı? <a href="#">Giriş yap</a></p>
+            </div>
+            <div class="indir">
+                <p>Uygulamayı indir.</p>
+            </div>
+            <div class="mobil">
+                <a href=""><img class="il" src="/Content/images/appstore.png" alt="ios"></a>
+                <a href=""><img class="ir" src="/Content/images/google.png" alt="ios"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

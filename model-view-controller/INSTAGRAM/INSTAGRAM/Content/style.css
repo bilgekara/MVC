@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ana{
+  width: 850px;
+  margin: auto;
+  margin: 30px auto;
+}
+
+.photo{
+  float: left;
+  background: url(images/telefon.png) no-repeat;
+  width: 450px;
+  height: 600px;
+  display: block;
+  background-size: 454px 618px;
+  margin-top: 50px;
+}
+
+.aaa{
+  width: 350px;
+  float: left;
+}
+
+.aaa .giris{
+  background: white;
+  border: 1px solid #f3eeee;
+  margin-top: 8px;
+}
+
+.aaa .giris .logo img{
+  width: 170px;
+  margin: auto;
+  display: block;
+  height: 48px;
+  margin-top: 30px;
+}
+
+.aaa .giris .baslik p{
+  font-weight: 500;
+  font-size: 17px;
+  color: #999;
+  text-align: center;
+  line-height: 20px;
+}
+
+.aaa .giris .linkler button{
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 6px 0;
+  width: 273px;
+  font-size: 15px; 
+  margin: 16px auto;
+  display: block;
+}
+
+.aaa .giris .kutular input{
+  background-color: #fafafa;
+  border: 1px solid #efefef;
+  width: 250px;
+  height: 30px;
+  border-radius: 3px;
+  margin: 6px auto;
+  padding: 3px 10px;
+  display: block;
+}
+
+.aaa .giris .kosul p{
+  color: #999;
+  text-align: center;
+  margin: 10px 60px 40px 60px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.aaa .giris .kp{
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px;
+}
+
+.aaa .giris .kp a{
+  text-decoration: none;
+  color: #3897F0;
+}
+
+.aaa .indir{
+  text-align: center;
+  font-size: 14px;
+  color: #262626;
+  line-height: 18px;
+  padding: 8px;
+}
+
+.aaa .yada p{
+  color: #999;
+  text-align: center;
+  margin: 14px auto;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.aaa .mobil{
+  width: 300;
+}
+
+.aaa .mobil a .ir{
+  width: 140px;
+  display: block;
+  float: right;
+  margin: 0 32px 20px 0px;;
+}
+
+.aaa .mobil a .il{
+  width: 140px;
+  margin: 0 0 20px 32px;;
+  display: block;
+  float: left;
+}
+
+/* Galeri */
+
+.photo .container {
+  margin: 50px auto;
+  width: 300px;
+  height: 428px;
+  overflow: hidden;
+  position: relative;
+  float: right;
+  right: -1px;
+  top: 49px;
+}
+
+.photo .ekran {
+  position: absolute;
+  animation: round 16s infinite;
+  opacity: 0;
+  width: 240px;
+  height: 428px;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+img:nth-child(1) {
+  animation-delay: 12s;
+}
+
+img:nth-child(2) {
+  animation-delay: 8s;
+}
+
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+img:nth-child(4) {
+  animation-delay: 0s;
+}
+
+/* Login - Start */
+
+.linkler2 a{
+  text-align: center;
+  color: #385185;
+  font-weight: 500;
+  width: 273px;
+  font-size: 15px; 
+  margin: 25px auto;
+  display: block;
+  text-decoration: none;
+}
+
+.linkler3 a{
+  text-align: center;
+  color: #3897F0;
+  font-weight: 500;
+  width: 273px;
+  font-size: 15px; 
+  margin: 25px auto;
+  display: block;
+  text-decoration: none;
+}
+
+.linkler2:active, .linkler3:active, .giris p a:active{
+  opacity: 0.7;
+}
+
+.bosluk{
+  margin-top: 60px; 
+}
+
+.bosluk2{
+  margin-bottom: 50px;
+}
+
+/* Anasayfa */ 
+
+header{
+  border: 1px solid #f3eeee;
+  background-color: white;
+}
+
+header .inner{
+  margin: auto;
+  width: 960px;
+}
+
+header .logo2{
+  float: left;
+  margin: 20px 0 0 0;
+  width: 100px;
+}
+
+header .inner .arama{
+  margin: 20px auto;
+  display: inline-block;
+  width: 200px;
+  position: relative;
+  left: 30%;
+}
+
+header .inner .arama input{
+  background-color: #fafafa;
+  border: 1px solid #efefef;
+  width: 170px;
+  height: 20px;
+  border-radius: 3px;
+  padding: 3px 10px;
+  text-align: center;
+}
+
+.profil{
+  float: right;
+  margin: 25px 0px;
+}
+
+.profil a{
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(75, 75, 75);
+  padding-left: 15px; 
+}
+
+.container{
+  width: 960px;
+  margin: auto;
+}
+
+.icerik{
+  margin-top: 30px; 
+  width: 960px;
+}
+
+.postus{
+  padding: 12px;
+}
+
+.post{
+  float: left;
+  display: inline;
+  background-color: white;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+.postimage{
+  display: inline-block;
+  position: relative;
+  height: 50px;
+}
+
+.postimage img{
+  width: 50px;
+  border-radius: 100px;
+}
+
+.postisim{
+  display: inline-block;
+  position: absolute;
+  padding-left: 20px; 
+}
+
+.postisim p{
+ margin: 0;
+ display: inline-block;
+}
+
+.isim{
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.konum{
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(121, 121, 121);
+}
+
+.postimage2 img{
+  width: 620px;
+  height: 620px;
+}
+
+.postmenu{
+  float: right;
+  margin: 13px 10px 0px 0px; 
+}
+
+.postmenu img{
+  width: 20px;
+}
+
+.ucuncu{
+  float: right;
+}
+
+.begen{
+  padding: 13px;
+}
+
+.begen .kalp a{
+  font-size: 27px;
+  color: rgb(75, 75, 75);
+}
+
+.kalp{
+  margin: -5px 0px 10px 0px; 
+}
+
+.birinci{
+  padding-right: 15px; 
+}
+
+.birinci:active{
+  color: red;
+}
+
+.gun{
+  color: rgb(179, 179, 179) !important;
+  font-size: 13px !important;
+}
+
+.yazilar a{
+  color: rgb(82, 82, 82);
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0;
+  font-size: 15px;
+}
+
+.yazilar p{
+  color: rgb(82, 82, 82);
+  margin:8px 0px;
+  font-size: 15px;
+}
+
+.icerik2{
+  width: 320px;
+  display: inline-block;
+  margin: 30px 0px 0px 18px;
+}
+
+.prof{
+  display: inline-block;
+  position: relative;
+}
+
+.anaprof{
+  padding-bottom: 20px; 
+}
+
+.prof img{
+  border-radius: 100%;
+  width: 70px;
+}
+
+.hikayeicerik{
+  height: 250px; 
+  overflow-x: hidden; 
+  overflow-y: scroll;
+  margin-top: 20px;
+}
+
+.hikaye{
+  border: 1px solid #efefef;
+  background-color: white;
+  border-radius: 3px;
+  padding: 20px 20px 0px 20px;
+  margin-bottom: 20px; 
+}
+
+.postimage5{
+  display: inline-block;
+  position: relative;
+  height: 50px;
+}
+
+.postimage5 img{
+  width: 50px;
+  border-radius: 100px;
+}
+
+.postisim5{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.postisim5 p{
+  margin: 0;
+  display: block;
+}
+
+.isim5{
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.konum5{
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(121, 121, 121);
+}
+
+.hikayeicerikbaligi1{
+  display: block;
+  padding-bottom: 10px;
+}
+
+.hikayebaslik{
+  margin-bottom: 20px;
+}
+
+.hikayebaslik p{
+  margin: 0;
+  display: inline-block;
+  color: rgb(121, 121, 121);
+  font-size: 15px;
+ }
+
+ .tum{
+   float: right;
+   color: rgb(90, 90, 90) !important;
+   font-size: 15px;
+ }
+
+ footer{
+   margin: 0;
+ }
+
+footer ul li{
+  float: left;
+  list-style: none;
+  padding-right: 3px; 
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: #ccc;
+  font-size: 12px;
+  margin: 0;
+}
+
+
