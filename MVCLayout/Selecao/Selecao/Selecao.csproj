@@ -1,0 +1,351 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D5C096F-5DFB-4A29-B096-C6ED7DC8FF64}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Selecao</RootNamespace>
+    <AssemblyName>Selecao</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\color\default.css" />
+    <Content Include="Content\contactform\contactform.js" />
+    <Content Include="Content\contactform\Readme.txt" />
+    <Content Include="Content\css\animate.css" />
+    <Content Include="Content\css\bootstrap-responsive.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\flexslider.css" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\overwrite.css" />
+    <Content Include="Content\css\prettyPhoto.css" />
+    <Content Include="Content\css\sequencejs.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\font\fontawesome\fontawesome-webfont.svg" />
+    <Content Include="Content\font\generator_config.txt" />
+    <Content Include="Content\font\ostrich-black-demo.html" />
+    <Content Include="Content\font\ostrich-black-webfont.svg" />
+    <Content Include="Content\font\ostrich-bold-demo.html" />
+    <Content Include="Content\font\ostrich-bold-webfont.svg" />
+    <Content Include="Content\font\ostrich-rounded-demo.html" />
+    <Content Include="Content\font\ostrich-rounded-webfont.svg" />
+    <Content Include="Content\font\SIL Open Font License 1.1.txt" />
+    <Content Include="Content\font\specimen_files\easytabs.js" />
+    <Content Include="Content\font\specimen_files\grid_12-825-55-15.css" />
+    <Content Include="Content\font\specimen_files\ostrich-black-cleartype.png" />
+    <Content Include="Content\font\specimen_files\ostrich-bold-cleartype.png" />
+    <Content Include="Content\font\specimen_files\ostrich-rounded-cleartype.png" />
+    <Content Include="Content\font\specimen_files\specimen_stylesheet.css" />
+    <Content Include="Content\font\stylesheet.css" />
+    <Content Include="Content\ico\apple-touch-icon-114-precomposed.png" />
+    <Content Include="Content\ico\apple-touch-icon-144-precomposed.png" />
+    <Content Include="Content\ico\apple-touch-icon-57-precomposed.png" />
+    <Content Include="Content\ico\apple-touch-icon-72-precomposed.png" />
+    <Content Include="Content\ico\favicon.ico" />
+    <Content Include="Content\img\bg\bg-1.jpg" />
+    <Content Include="Content\img\bt-next.png" />
+    <Content Include="Content\img\bt-prev.png" />
+    <Content Include="Content\img\dummies\about\1.jpg" />
+    <Content Include="Content\img\dummies\about\10.jpg" />
+    <Content Include="Content\img\dummies\about\11.jpg" />
+    <Content Include="Content\img\dummies\about\12.jpg" />
+    <Content Include="Content\img\dummies\about\13.jpg" />
+    <Content Include="Content\img\dummies\about\14.jpg" />
+    <Content Include="Content\img\dummies\about\15.jpg" />
+    <Content Include="Content\img\dummies\about\16.jpg" />
+    <Content Include="Content\img\dummies\about\17.jpg" />
+    <Content Include="Content\img\dummies\about\18.jpg" />
+    <Content Include="Content\img\dummies\about\19.jpg" />
+    <Content Include="Content\img\dummies\about\2.jpg" />
+    <Content Include="Content\img\dummies\about\20.jpg" />
+    <Content Include="Content\img\dummies\about\21.jpg" />
+    <Content Include="Content\img\dummies\about\22.jpg" />
+    <Content Include="Content\img\dummies\about\23.jpg" />
+    <Content Include="Content\img\dummies\about\24.jpg" />
+    <Content Include="Content\img\dummies\about\25.jpg" />
+    <Content Include="Content\img\dummies\about\26.jpg" />
+    <Content Include="Content\img\dummies\about\27.jpg" />
+    <Content Include="Content\img\dummies\about\28.jpg" />
+    <Content Include="Content\img\dummies\about\29.jpg" />
+    <Content Include="Content\img\dummies\about\3.jpg" />
+    <Content Include="Content\img\dummies\about\30.jpg" />
+    <Content Include="Content\img\dummies\about\31.jpg" />
+    <Content Include="Content\img\dummies\about\32.jpg" />
+    <Content Include="Content\img\dummies\about\33.jpg" />
+    <Content Include="Content\img\dummies\about\34.jpg" />
+    <Content Include="Content\img\dummies\about\35.jpg" />
+    <Content Include="Content\img\dummies\about\36.jpg" />
+    <Content Include="Content\img\dummies\about\37.jpg" />
+    <Content Include="Content\img\dummies\about\38.jpg" />
+    <Content Include="Content\img\dummies\about\39.jpg" />
+    <Content Include="Content\img\dummies\about\4.jpg" />
+    <Content Include="Content\img\dummies\about\40.jpg" />
+    <Content Include="Content\img\dummies\about\41.jpg" />
+    <Content Include="Content\img\dummies\about\42.jpg" />
+    <Content Include="Content\img\dummies\about\43.jpg" />
+    <Content Include="Content\img\dummies\about\44.jpg" />
+    <Content Include="Content\img\dummies\about\45.jpg" />
+    <Content Include="Content\img\dummies\about\46.jpg" />
+    <Content Include="Content\img\dummies\about\47.jpg" />
+    <Content Include="Content\img\dummies\about\48.jpg" />
+    <Content Include="Content\img\dummies\about\49.jpg" />
+    <Content Include="Content\img\dummies\about\5.jpg" />
+    <Content Include="Content\img\dummies\about\50.jpg" />
+    <Content Include="Content\img\dummies\about\51.jpg" />
+    <Content Include="Content\img\dummies\about\52.jpg" />
+    <Content Include="Content\img\dummies\about\53.jpg" />
+    <Content Include="Content\img\dummies\about\54.jpg" />
+    <Content Include="Content\img\dummies\about\6.jpg" />
+    <Content Include="Content\img\dummies\about\7.jpg" />
+    <Content Include="Content\img\dummies\about\8.jpg" />
+    <Content Include="Content\img\dummies\about\9.jpg" />
+    <Content Include="Content\img\glyphicons-halflings-white.png" />
+    <Content Include="Content\img\glyphicons-halflings.png" />
+    <Content Include="Content\img\gray-gradient.png" />
+    <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\nav-default-bg.png" />
+    <Content Include="Content\img\portfolio\big.jpg" />
+    <Content Include="Content\img\portfolio\img1.jpg" />
+    <Content Include="Content\img\portfolio\img10.jpg" />
+    <Content Include="Content\img\portfolio\img11.jpg" />
+    <Content Include="Content\img\portfolio\img12.jpg" />
+    <Content Include="Content\img\portfolio\img2.jpg" />
+    <Content Include="Content\img\portfolio\img3.jpg" />
+    <Content Include="Content\img\portfolio\img4.jpg" />
+    <Content Include="Content\img\portfolio\img5.jpg" />
+    <Content Include="Content\img\portfolio\img6.jpg" />
+    <Content Include="Content\img\portfolio\img7.jpg" />
+    <Content Include="Content\img\portfolio\img8.jpg" />
+    <Content Include="Content\img\portfolio\img9.jpg" />
+    <Content Include="Content\img\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="Content\img\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="Content\img\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="Content\img\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="Content\img\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="Content\img\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="Content\img\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="Content\img\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="Content\img\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="Content\img\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="Content\img\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="Content\img\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="Content\img\prettyPhoto\default\default_thumb.png" />
+    <Content Include="Content\img\prettyPhoto\default\loader.gif" />
+    <Content Include="Content\img\prettyPhoto\default\sprite.png" />
+    <Content Include="Content\img\prettyPhoto\default\sprite_next.png" />
+    <Content Include="Content\img\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="Content\img\prettyPhoto\default\sprite_x.png" />
+    <Content Include="Content\img\prettyPhoto\default\sprite_y.png" />
+    <Content Include="Content\img\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="Content\img\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="Content\img\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="Content\img\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="Content\img\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="Content\img\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="Content\img\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="Content\img\prettyPhoto\facebook\loader.gif" />
+    <Content Include="Content\img\prettyPhoto\facebook\sprite.png" />
+    <Content Include="Content\img\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="Content\img\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="Content\img\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="Content\img\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="Content\img\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="Content\img\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="Content\img\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="Content\img\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="Content\img\prettyPhoto\light_square\loader.gif" />
+    <Content Include="Content\img\prettyPhoto\light_square\sprite.png" />
+    <Content Include="Content\img\slider\btn_back.png" />
+    <Content Include="Content\img\slider\btn_next.png" />
+    <Content Include="Content\img\slider\btn_pause.png" />
+    <Content Include="Content\img\slider\btn_play.png" />
+    <Content Include="Content\img\slider\flexslider\img-1.png" />
+    <Content Include="Content\img\slider\flexslider\img-2.png" />
+    <Content Include="Content\img\slider\flexslider\img-3.png" />
+    <Content Include="Content\img\slider\parallax\img-1.png" />
+    <Content Include="Content\img\slider\parallax\img-2.png" />
+    <Content Include="Content\img\slider\parallax\img-3.png" />
+    <Content Include="Content\img\slider\textbg-dark.png" />
+    <Content Include="Content\img\strive-line.png" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\custom.js" />
+    <Content Include="Content\js\google-code-prettify\prettify.css" />
+    <Content Include="Content\js\google-code-prettify\prettify.js" />
+    <Content Include="Content\js\jquery.easing.js" />
+    <Content Include="Content\js\jquery.flexslider.js" />
+    <Content Include="Content\js\jquery.js" />
+    <Content Include="Content\js\jquery.lettering.js" />
+    <Content Include="Content\js\jquery.min.js" />
+    <Content Include="Content\js\jquery.nav.js" />
+    <Content Include="Content\js\jquery.scrollTo.js" />
+    <Content Include="Content\js\modernizr.custom.js" />
+    <Content Include="Content\js\nagging-menu.js" />
+    <Content Include="Content\js\parallax\jquery.localscroll-1.2.7-min.js" />
+    <Content Include="Content\js\parallax\jquery.parallax-1.1.3.js" />
+    <Content Include="Content\js\parallax\jquery.scrollTo-1.4.2-min.js" />
+    <Content Include="Content\js\portfolio\jquery.quicksand.js" />
+    <Content Include="Content\js\portfolio\setting.js" />
+    <Content Include="Content\js\prettycode.js" />
+    <Content Include="Content\js\prettyPhoto\jquery.prettyPhoto.js" />
+    <Content Include="Content\js\prettyPhoto\setting.js" />
+    <Content Include="Content\js\sequence.jquery-min.js" />
+    <Content Include="Content\js\sequencejs-options.sliding-horizontal-parallax.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="Content\font\fontawesome\fontawesome-webfont.eot" />
+    <Content Include="Content\font\fontawesome\fontawesome-webfont.ttf" />
+    <Content Include="Content\font\fontawesome\fontawesome-webfont.woff" />
+    <Content Include="Content\font\fontawesome\FontAwesome.otf" />
+    <Content Include="Content\font\ostrich-black-webfont.eot" />
+    <Content Include="Content\font\ostrich-black-webfont.ttf" />
+    <Content Include="Content\font\ostrich-black-webfont.woff" />
+    <Content Include="Content\font\ostrich-bold-webfont.eot" />
+    <Content Include="Content\font\ostrich-bold-webfont.ttf" />
+    <Content Include="Content\font\ostrich-bold-webfont.woff" />
+    <Content Include="Content\font\ostrich-rounded-webfont.eot" />
+    <Content Include="Content\font\ostrich-rounded-webfont.ttf" />
+    <Content Include="Content\font\ostrich-rounded-webfont.woff" />
+    <None Include="packages.config" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Icons.cshtml" />
+    <Content Include="Views\Home\Components.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55988</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55988/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
