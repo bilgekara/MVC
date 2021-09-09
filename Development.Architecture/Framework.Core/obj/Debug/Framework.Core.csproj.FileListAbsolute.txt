@@ -1,0 +1,12 @@
+C:\Users\bilgenur\source\repos\Development.Architecture\Framework.Core\bin\Debug\Framework.Core.dll
+C:\Users\bilgenur\source\repos\Development.Architecture\Framework.Core\bin\Debug\Framework.Core.pdb
+C:\Users\bilgenur\source\repos\Development.Architecture\Framework.Core\obj\Debug\Framework.Core.csprojAssemblyReference.cache
+C:\Users\bilgenur\source\repos\Development.Architecture\Framework.Core\obj\Debug\Framework.Core.csproj.CoreCompileInputs.cache
+C:\Users\bilgenur\source\repos\Development.Architecture\Framework.Core\obj\Debug\Framework.Core.dll
+C:\Users\bilgenur\source\repos\Development.Architecture\Framework.Core\obj\Debug\Framework.Core.pdb
+C:\Users\karab\Desktop\staj\Development.Architecture\Framework.Core\bin\Debug\Framework.Core.dll
+C:\Users\karab\Desktop\staj\Development.Architecture\Framework.Core\bin\Debug\Framework.Core.pdb
+C:\Users\karab\Desktop\staj\Development.Architecture\Framework.Core\obj\Debug\Framework.Core.csproj.AssemblyReference.cache
+C:\Users\karab\Desktop\staj\Development.Architecture\Framework.Core\obj\Debug\Framework.Core.csproj.CoreCompileInputs.cache
+C:\Users\karab\Desktop\staj\Development.Architecture\Framework.Core\obj\Debug\Framework.Core.dll
+C:\Users\karab\Desktop\staj\Development.Architecture\Framework.Core\obj\Debug\Framework.Core.pdb
