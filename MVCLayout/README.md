@@ -1,0 +1,2 @@
+- MVC yapısını ve içeriğini anlamak için yapılmış projeler
+- Model bulunmuyor, sadece controller ve view
