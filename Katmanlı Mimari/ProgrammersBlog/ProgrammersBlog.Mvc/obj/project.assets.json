@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karab\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
+      "projectUniqueName": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
       "projectName": "ProgrammersBlog.Mvc",
-      "projectPath": "C:\\Users\\karab\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
+      "projectPath": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\ProgrammersBlog\\ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj",
       "packagesPath": "C:\\Users\\karab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karab\\source\\repos\\ProgrammersBlog\\ProgrammersBlog.Mvc\\obj\\",
+      "outputPath": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\ProgrammersBlog\\ProgrammersBlog.Mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karab\\AppData\\Roaming\\NuGet\\NuGet.Config",

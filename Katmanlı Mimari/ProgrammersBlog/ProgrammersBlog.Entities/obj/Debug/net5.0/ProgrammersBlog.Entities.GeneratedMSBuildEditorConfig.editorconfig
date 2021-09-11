@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = ProgrammersBlog.Entities
-build_property.ProjectDir = C:\Users\karab\source\repos\ProgrammersBlog\ProgrammersBlog.Entities\
+build_property.ProjectDir = C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Entities\
