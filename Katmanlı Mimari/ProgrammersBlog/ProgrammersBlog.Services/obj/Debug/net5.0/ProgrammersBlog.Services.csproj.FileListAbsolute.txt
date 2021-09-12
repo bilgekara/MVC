@@ -1,0 +1,12 @@
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Services.deps.json
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Services.dll
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ref\ProgrammersBlog.Services.dll
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Services.pdb
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.csproj.AssemblyReference.cache
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.AssemblyInfoInputs.cache
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.AssemblyInfo.cs
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.csproj.CoreCompileInputs.cache
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.dll
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ref\ProgrammersBlog.Services.dll
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.pdb
