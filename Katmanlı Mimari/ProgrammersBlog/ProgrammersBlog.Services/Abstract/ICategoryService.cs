@@ -11,9 +11,10 @@ namespace ProgrammersBlog.Services.Abstract
 {
     public interface ICategoryService
     {
-        Task<IDataResult<Category>> Get(int categoryId);
-        Task<IDataResult<IList<Category>>> GetAll();
-        Task<IDataResult<IList<Category>>> GetAllByNonDeleted();
+        Task<IDataResult<CategoryDto>> Get(int categoryId);
+        Task<IDataResult<CategoryListDto>> GetAll();
+        Task<IDataResult<CategoryListDto>> GetAllByNonDeleted();
+        Task<IDataResult<CategoryListDto>> GetAllByNonDeletedAndActive();
         // bir veri ekleyince IResult dönücez ve veri eklerken de kategorinin
         // tamamını değil sadece front end tarafını kullanıcıdan isteyecez
         Task<IResult> Add(CategoryAddDto categoryAddDto,string createdByName);
