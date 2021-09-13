@@ -8,9 +8,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Utilities\Results\Abstract\" />
-    <Folder Include="Utilities\Results\ComplexTypes\" />
-  </ItemGroup>
-
 </Project>
