@@ -1,4 +1,5 @@
-﻿using ProgrammersBlog.Data.Abstract;
+﻿using AutoMapper;
+using ProgrammersBlog.Data.Abstract;
 using ProgrammersBlog.Entities.Concrete;
 using ProgrammersBlog.Entities.Dtos;
 using ProgrammersBlog.Services.Abstract;

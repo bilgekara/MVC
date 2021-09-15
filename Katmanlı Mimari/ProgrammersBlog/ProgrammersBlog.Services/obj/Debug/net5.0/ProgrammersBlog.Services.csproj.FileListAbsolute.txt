@@ -15,3 +15,5 @@ C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\Programmers
 C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Entities.pdb
 C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Shared.pdb
 C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.csproj.CopyComplete
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Data.dll
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Data.pdb
