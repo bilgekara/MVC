@@ -394,3 +394,7 @@ C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\Programmers
 C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\ProgrammersBlog.Mvc.RazorTargetAssemblyInfo.cs
 C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\ProgrammersBlog.Mvc.Views.pdb
 C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\ProgrammersBlog.Mvc.csproj.CopyComplete
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutCssPartial.cshtml.g.cs
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutJsPartial.cshtml.g.cs
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutSideBarNavPartial.cshtml.g.cs
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
