@@ -17,8 +17,8 @@ namespace ProgrammersBlog.Services.Abstract
         Task<IDataResult<CategoryListDto>> GetAllByNonDeletedAndActive();
         // bir veri ekleyince IResult dönücez ve veri eklerken de kategorinin
         // tamamını değil sadece front end tarafını kullanıcıdan isteyecez
-        Task<IResult> Add(CategoryAddDto categoryAddDto,string createdByName);
-        Task<IResult> Update(CategoryUpdateDto categoryUpdateDto, string modifiedByName);
+        Task<IDataResult<CategoryListDto>> Add(CategoryAddDto categoryAddDto,string createdByName);
+        Task<IDataResult<CategoryListDto>> Update(CategoryUpdateDto categoryUpdateDto, string modifiedByName);
         // bu gercekten category'i silmicek delete degerini true yapacak
         //getAll diye cagirdigimizda delete olanlar gelmiyor olacak
         Task<IResult> Delete(int categoryId, string modifiedByName);
