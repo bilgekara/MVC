@@ -30,7 +30,7 @@ namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
              * durumu success ise başarılıysa ona göre işlem yapıcaz
              * var result ile data result almış olduk
              */
-            var result = await _categoryService.GetAll();
+            var result = await _categoryService.GetAllByNonDeleted();
 
             return View(result.Data);
         }
@@ -68,7 +68,7 @@ namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
         // kategorileri getirmek icin
         public async Task<JsonResult> GetAllCategories()
         {
-            var result = await _categoryService.GetAll();
+            var result = await _categoryService.GetAllByNonDeleted();
             /* neyi Serialize etmemiz gerekiyor ?
              * result icindeki datayi(gelen kategori listesini)
              * JsonSerializerOptions -> bu objemiz icersindeki refereans eden veriler oldugu ivim
@@ -83,9 +83,9 @@ namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
         [HttpPost]
         public async Task<JsonResult> Delete(int categoryId)
         {
-            var result = await _categoryService.Delete(categoryId, "Bilgenur KARA");
-            var ajaxResult = JsonSerializer.Serialize(result);
-            return Json(ajaxResult);
+            var result = await _categoryService.Delete(categoryId, "Bilgenur Kara");
+            var deletedCategory = JsonSerializer.Serialize(result.Data); //categorydto yu dondrmek istiyoruz
+            return Json(deletedCategory); // categoryDto olarak yer alacak
         }
     }
 }

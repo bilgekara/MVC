@@ -21,7 +21,7 @@ namespace ProgrammersBlog.Services.Abstract
         Task<IDataResult<CategoryDto>> Update(CategoryUpdateDto categoryUpdateDto, string modifiedByName);
         // bu gercekten category'i silmicek delete degerini true yapacak
         //getAll diye cagirdigimizda delete olanlar gelmiyor olacak
-        Task<IResult> Delete(int categoryId, string modifiedByName);
+        Task<IDataResult<CategoryDto>> Delete(int categoryId, string modifiedByName);
         // veri tabanından silincek
         Task<IResult> HardDelete(int categoryId);
     }
