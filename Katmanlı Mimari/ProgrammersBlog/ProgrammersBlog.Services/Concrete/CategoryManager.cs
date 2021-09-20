@@ -62,7 +62,7 @@ namespace ProgrammersBlog.Services.Concrete
             {
                 Categories = null,
                 ResultStatus = ResultStatus.Error,
-                Message = "Hiç bir kategori bulunamadı.",
+                Message = "Hiç bir kategori bulunamadı."
             });
         }
 
@@ -101,8 +101,8 @@ namespace ProgrammersBlog.Services.Concrete
             category.ModifiedByName = createdByName;
             var addedCategory = await _unitOfWork.Categories.AddAsync(category);
             await _unitOfWork.SaveAsync();
-            //await _unitOfWork.SaveAsync();
-            return new DataResult<CategoryDto>(ResultStatus.Success, $"{categoryAddDto.Name} adlı kategori başarıyla eklenmiştir.",new CategoryDto { 
+            return new DataResult<CategoryDto>(ResultStatus.Success, $"{categoryAddDto.Name} adlı kategori başarıyla eklenmiştir.", new CategoryDto
+            {
                 Category = addedCategory,
                 ResultStatus = ResultStatus.Success,
                 Message = $"{categoryAddDto.Name} adlı kategori başarıyla eklenmiştir."
@@ -115,10 +115,11 @@ namespace ProgrammersBlog.Services.Concrete
             category.ModifiedByName = modifiedByName;
             var updatedCategory = await _unitOfWork.Categories.UpdateAsync(category);
             await _unitOfWork.SaveAsync();
-            return new DataResult<CategoryDto>(ResultStatus.Success, $"{categoryUpdateDto.Name} adlı kategori başarıyla güncellenmiştir.",new CategoryDto {
+            return new DataResult<CategoryDto>(ResultStatus.Success, $"{categoryUpdateDto.Name} adlı kategori başarıyla güncellenmiştir.", new CategoryDto
+            {
                 Category = updatedCategory,
                 ResultStatus = ResultStatus.Success,
-                Message = $"{updatedCategory.Name} adlı kategori başarıyla güncellenmiştir."
+                Message = $"{categoryUpdateDto.Name} adlı kategori başarıyla güncellenmiştir."
             });
         }
 
