@@ -65,6 +65,20 @@ namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
             return Json(categoryAddAjaxErrorModel);
 
         }
+        [HttpGet]
+        [HttpGet]
+        public async Task<IActionResult> Update(int categoryId)
+        {
+            var result = await _categoryService.GetCategoryUpdateDto(categoryId);
+            if (result.ResultStatus == ResultStatus.Success) // model resul.data dan geliyor
+            { // boylelikle partial view modeliyle birlikte basarili bir sekilde return ediliyor
+                return PartialView("_CategoryUpdatePartial", result.Data);
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
         // kategorileri getirmek icin
         public async Task<JsonResult> GetAllCategories()
         {

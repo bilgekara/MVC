@@ -401,3 +401,4 @@ C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\Programmers
 C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\_CategoryAddPartial.cshtml.g.cs
 C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\_CategoryUpdatePartial.cshtml.g.cs
