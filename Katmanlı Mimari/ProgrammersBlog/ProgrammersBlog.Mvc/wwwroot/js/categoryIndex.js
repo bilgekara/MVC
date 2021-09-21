@@ -165,7 +165,7 @@ data yı json olarak parse ettikten sonra bir javascript objesi icine atiyo oluc
                         placeHolderDiv.find('.modal').modal('hide');
                         /* modelin icindeki categoryDTO modeline eristik ve onun icindeki id degerinide buraya yazdirdik */
                         const newTableRow = `
-                                <tr>
+                                <tr name ="${categoryAddAjaxModel.CategoryDto.Category.Id}">
                                                     <td>${categoryAddAjaxModel.CategoryDto.Category.Id}</td>
                                                     <td>${categoryAddAjaxModel.CategoryDto.Category.Name}</td>
                                                     <td>${categoryAddAjaxModel.CategoryDto.Category.Description}</td>
@@ -267,6 +267,79 @@ data yı json olarak parse ettikten sonra bir javascript objesi icine atiyo oluc
                     placeHolderDiv.find('.modal').modal('show');
                 }).fail(function () {
                     toastr.error("Bir hata oluştu.");
+                });
+            });
+
+        /* Ajax POST / Updating a Category starts from here */
+        /* modal  form üzerindeki kaydet butonuna basıldıgında btnSave  butonunun eventini yakalamak gerekiyor */
+        placeHolderDiv.on('click',
+            '#btnUpdate',
+            function (event) {
+                event.preventDefault();
+                // formu secmek icin forma verdigimiz id yi kullanıyoruz
+                const form = $('#form-category-update');
+                const actionUrl = form.attr('action');
+                const dataToSend = form.serialize(); // article form üzerindeki veri istedigimiz haliyle alınacak
+                // bilgileri aldıgımıza gore ajax post islemiyle action üzerine gonderebilriz
+                // bu actionUrl'e hangi bilgileri gondermeliyim
+                $.post(actionUrl, dataToSend).done(function (data) {
+                    // fonksiyon calistirsin ve geri donen datayı bizlere iletsin
+                    const categoryUpdateAjaxModel = jQuery.parseJSON(data); // bizlere gelen datayı okuyoruz
+                    console.log(categoryUpdateAjaxModel);
+                    // bizlere gelen partialviewi modalform icerisine eklemek -olurda
+                    // kullanıcı bir hata yapmıssa gostermek istiyoruz
+                    // bununicin yapmamız gereken newFormBody'i partialview icerisnde almak olacak
+                    const newFormBody = $('.modal-body', categoryUpdateAjaxModel.CategoryUpdatePartial);
+                    placeHolderDiv.find('.modal-body').replaceWith(newFormBody);
+                    const isValid = newFormBody.find('[name="IsValid"]').val() === 'True';
+                    if (isValid) {
+                        // buradaki degr dogru sekilde bizler gelmis category update islem gerckelesmis 
+                        // ve model bilgilerinde sorun yok
+                        placeHolderDiv.find('.modal').modal('hide');
+                        const newTableRow = `
+                                <tr name="${categoryUpdateAjaxModel.CategoryDto.Category.Id}">
+                                                    <td>${categoryUpdateAjaxModel.CategoryDto.Category.Id}</td>
+                                                    <td>${categoryUpdateAjaxModel.CategoryDto.Category.Name}</td>
+                                                    <td>${categoryUpdateAjaxModel.CategoryDto.Category
+                                .Description}</td>
+                                                    <td>${convertFirstLetterToUpperCase(categoryUpdateAjaxModel
+                                    .CategoryDto.Category.IsActive.toString())}</td>
+                                                    <td>${convertFirstLetterToUpperCase(categoryUpdateAjaxModel
+                                        .CategoryDto.Category.IsDeleted.toString())}</td>
+                                                    <td>${categoryUpdateAjaxModel.CategoryDto.Category.Note}</td>
+                                                    <td>${convertToShortDate(categoryUpdateAjaxModel.CategoryDto
+                                            .Category.CreatedDate)}</td>
+                                                    <td>${categoryUpdateAjaxModel.CategoryDto.Category
+                                .CreatedByName}</td>
+                                                    <td>${convertToShortDate(categoryUpdateAjaxModel.CategoryDto
+                                    .Category.ModifiedDate)}</td>
+                                                    <td>${categoryUpdateAjaxModel.CategoryDto.Category
+                                .ModifiedByName}</td>
+                                                    <td>
+                                                        <button class="btn btn-primary btn-sm btn-update" data-id="${categoryUpdateAjaxModel.CategoryDto.Category.Id}"><span class="fas fa-edit"></span></button>
+                                                        <button class="btn btn-danger btn-sm btn-delete" data-id="${categoryUpdateAjaxModel.CategoryDto.Category.Id
+                            }"><span class="fas fa-minus-circle"></span></button>
+                                                    </td>
+                                                </tr>`;
+                        //jquery icerisinde kullanabilmek icin jquery nesnesi haline gelmesi gerkiyor
+                        const newTableRowObject = $(newTableRow);
+                        // tablerowın name ozelliginden kategorinin degistigi tablerowu yakalıcaz
+                        const categoryTableRow = $(`[name="${categoryUpdateAjaxModel.CategoryDto.Category.Id}"]`); // eski kategori bilgilerinimn bulundugu tablerowu almıs olacaz
+                        newTableRowObject.hide();
+                        //yenitablerow ile eskisini yerdegistir
+                        categoryTableRow.replaceWith(newTableRowObject);
+                        newTableRowObject.fadeIn(3500);
+                        toastr.success(`${categoryUpdateAjaxModel.CategoryDto.Message}`, "Başarılı İşlem!");
+                    } else {
+                        let summaryText = "";
+                        $('#validation-summary > ul > li').each(function () {
+                            let text = $(this).text();
+                            summaryText = `*${text}\n`;
+                        });
+                        toastr.warning(summaryText);
+                    }
+                }).fail(function (response) {
+                    console.log(response);
                 });
             });
     });
