@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karab\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karab\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karab\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\karab\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\karab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karab\\source\\repos\\CoreDemo\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karab\\AppData\\Roaming\\NuGet\\NuGet.Config",

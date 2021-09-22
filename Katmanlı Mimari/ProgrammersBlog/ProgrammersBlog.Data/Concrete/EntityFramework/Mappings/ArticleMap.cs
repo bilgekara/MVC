@@ -39,7 +39,7 @@ namespace ProgrammersBlog.Data.Concrete.EntityFramework.Mappings
             builder.Property(a => a.IsActive).IsRequired();
             builder.Property(a => a.IsDeleted).IsRequired();
             builder.Property(a => a.Note).HasMaxLength(500);
-            //her bir makalebir kategor,ye ihtiyac duyuyor ama bir kategorinin birden fazla makalesi olabiliyor
+            //her bir makalebir kategoriye ihtiyac duyuyor ama bir kategorinin birden fazla makalesi olabiliyor
             // HasOne: bir tane kategorisi var
             // WithMany(c => c.Articles): bir kategori birden fazla makaleye sahip olur
             // HasForeignKey: makale tarafında bir foreign key var oda category id sidir

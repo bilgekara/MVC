@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1RYJ5yxJAMhNKmTn6qNh8kwgBFAqCUXI/OnMT+i8CRhngAbQFhxwVNyFSWbMZt/tEvUtNR9/5eVKMv9drd2SVw==",
+  "dgSpecHash": "hXQYFFXFprv5cusm7gNI2sQOSBcx1xzIQZSsL4IMFzov0tIYOMcGNGmGa9PgGhrSkfF0QWYFn0xXJaR5cgZPlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karab\\source\\repos\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karab\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\karab\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -5742,11 +5742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karab\\source\\repos\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\karab\\source\\repos\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\karab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karab\\source\\repos\\CoreDemo\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5763,11 +5763,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\karab\\source\\repos\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\karab\\source\\repos\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\karab\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\karab\\source\\repos\\CoreDemo\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }

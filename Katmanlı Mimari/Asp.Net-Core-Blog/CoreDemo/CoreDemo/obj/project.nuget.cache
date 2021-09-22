@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2I1G3GYadP2dvn/cRqbQxseMXl24mkZaepob4UNivIykg6RqgxqJiQP7Q2DWM4002Vq6+e4yDWvvZ+eoQ6zF3w==",
+  "dgSpecHash": "j9sJhTHoCTCq4sSKnGiu5ZOCjFk6eDjEw0JwD6D82DFT4mqQ29CUAIwPyhHwQnr1TgjBdr0PESqZBNoctJj8OA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karab\\source\\repos\\CoreDemo\\CoreDemo\\CoreDemo.csproj",
+  "projectFilePath": "C:\\Users\\karab\\Documents\\GitHub\\MVC\\Katmanlı Mimari\\Asp.Net-Core-Blog\\CoreDemo\\CoreDemo\\CoreDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karab\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\karab\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

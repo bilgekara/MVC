@@ -25,7 +25,7 @@ namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
-            /* actegory service içinde bir data result donuyoruz, 
+            /* ICtegoryService içinde bir data result donuyoruz, 
              * bu data result içerisindeki result status yani bu işlemin 
              * durumu success ise başarılıysa ona göre işlem yapıcaz
              * var result ile data result almış olduk
@@ -107,7 +107,7 @@ namespace ProgrammersBlog.Mvc.Areas.Admin.Controllers
             var result = await _categoryService.GetAllByNonDeleted();
             /* neyi Serialize etmemiz gerekiyor ?
              * result icindeki datayi(gelen kategori listesini)
-             * JsonSerializerOptions -> bu objemiz icersindeki refereans eden veriler oldugu ivim
+             * JsonSerializerOptions -> bu objemiz icersindeki refereans eden veriler oldugu icin
              * */
             var categories = JsonSerializer.Serialize(result.Data, new JsonSerializerOptions
             {

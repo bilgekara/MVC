@@ -16,7 +16,9 @@ namespace ProgrammersBlog.Services.Extensions
     {
         public static IServiceCollection LoadMyServices(this IServiceCollection serviceCollection)
         {
+            // db contextimizi kayıt etmiş olduk
             serviceCollection.AddDbContext<ProgrammersBlogContext>();
+            // biri senden UnitOfWork isterse IUnitOfWork ver
             serviceCollection.AddScoped<IUnitOfWork, UnitOfWork>();
             serviceCollection.AddScoped<ICategoryService, CategoryManager>();
             serviceCollection.AddScoped<IArticleService, ArticleManager>();
