@@ -7,13 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IBlogDal
+    public interface IBlogDal : IGenericDal<Blog>
     {
-        List<Blog> ListAllBlog();
-        void AddBlog(Blog blog);
-        void UpdateBlog(Blog blog);
-        void DeleteBlog(Blog blog);
-        // bir kategoride guncelleme veya silme yapmak istedigimde id ye gore deger getiriyor
-        Blog GetById(int id);
     }
 }

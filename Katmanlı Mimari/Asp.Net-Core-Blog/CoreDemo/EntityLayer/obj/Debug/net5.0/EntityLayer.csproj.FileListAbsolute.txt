@@ -10,3 +10,15 @@ C:\Users\karab\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.cs
 C:\Users\karab\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 C:\Users\karab\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\karab\source\repos\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\karab\Documents\GitHub\MVC\Katmanlı Mimari\Asp.Net-Core-Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
